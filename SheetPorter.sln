@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheetPorter", "SheetPorter\SheetPorter.csproj", "{C90D9694-4743-4F26-A4C7-CF60AD66E518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheetPorter.Tests", "SheetPorter.Tests\SheetPorter.Tests.csproj", "{ACD6B5E7-528A-46EA-9533-C6F76CA26EB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{2EE3E459-7944-44AB-9AB1-9CEFC059674E}"
+	ProjectSection(SolutionItems) = preProject
+		DeployToThirdParty.ps1 = DeployToThirdParty.ps1
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C90D9694-4743-4F26-A4C7-CF60AD66E518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90D9694-4743-4F26-A4C7-CF60AD66E518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90D9694-4743-4F26-A4C7-CF60AD66E518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90D9694-4743-4F26-A4C7-CF60AD66E518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD6B5E7-528A-46EA-9533-C6F76CA26EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD6B5E7-528A-46EA-9533-C6F76CA26EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD6B5E7-528A-46EA-9533-C6F76CA26EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD6B5E7-528A-46EA-9533-C6F76CA26EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
